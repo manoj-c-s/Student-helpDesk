@@ -1,0 +1,47 @@
+.dis > button {
+  background-color: rgb(133, 0, 0);
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 2px;
+}
+.dis > a {
+  background-color: rgb(133, 0, 0);
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.dis > button:hover {
+  background-color: rgb(15, 236, 22);
+  color: black;
+}
+.dis > a:hover {
+  background-color: rgb(15, 236, 22);
+  color: black;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: white;
+  border: 2px solid white;
+}
+.table{
+  display: flex;
+  margin-left: 10px;
+}
+.table>h1{
+margin-right: 20px;
+}

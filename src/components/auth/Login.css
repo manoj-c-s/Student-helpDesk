@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.918);
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo > p {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(100, 26, 13);
+}
+.logo > img {
+  height: 200px;
+  width: 200px;
+}
+
+.authOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 97px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.authOption {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  margin-bottom: 20px;
+  height: 70px;
+  border: 1px solid lightgray;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.authOption:hover {
+  background-color: rgb(248, 207, 207);
+}
+
+.authOption > img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.authOption > p {
+  margin-left: 11px;
+  font-size: 28px;
+}
+
+.googleAuth {
+  height: 40px;
+  width: 40px;
+}
+@media   (max-width:900px) {
+  .logo > img {
+    height: 100px;
+    width: 100px;
+  }
+  .googleAuth {
+    height: 20px;
+    width: 20px;
+  }
+  .logo > p {
+    font-size: large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: rgb(100, 26, 13);
+  }
+}

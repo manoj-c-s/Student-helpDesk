@@ -1,0 +1,163 @@
+.Box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.Box:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.Box_info {
+  display: flex;
+  align-items: center;
+}
+
+.Box_info > h5 {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.Box_quora > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 62px;
+  width: 600px;
+}
+
+.mod {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 485px;
+  width: 152px;
+}
+
+.mod > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.mod > .MuiSvgIcon-root:hover {
+  color: #b92b27;
+}
+
+.mod > .MuiButton-root {
+  color: white;
+  background: #b92b27;
+  text-transform: inherit;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.mod > .MuiButton-root:hover {
+  color: #ffffff;
+  background: #8f1f1b;
+}
+
+.mod_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.mod_title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.mod_title > h5:hover {
+  color: #b92b27;
+}
+
+.mod_info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.mod_info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.mod_info > .modal_scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.mod_Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.mod_Field > .mod_Link {
+  color: gray;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 130px;
+  border-bottom: 2px solid red;
+}
+
+.mod_Field > .mod_Link > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.mod_buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid lightgray;
+}
+
+.mod_buttons > .cancle {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.mod_buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: rgb(0, 64, 255);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
