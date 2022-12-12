@@ -25,7 +25,7 @@ function Nien() {
       </div>
       <div className='nonnie'>
         If you are not NIE STUDENT then you can got to BookReccomandation page
-        click here 👉 <a href='http://localhost:8501/' target="_blank" rel="noreferrer" >📚</a>
+        click here 👉 <a href='https://manoj-c-s-book-recommendation-app-j297f8.streamlit.app/' target="_blank" rel="noreferrer" >📚</a>
       </div>{" "}
     </div>
   );
